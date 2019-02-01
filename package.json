@@ -1,0 +1,14 @@
+{
+  "name": "spotify-social",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:monarchwadia/spotify-social.git",
+  "author": "Monarch <monarchwadia@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
