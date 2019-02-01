@@ -1,8 +1,10 @@
-const app = require('./app');
+require('dotenv').config();
+
+const { App } = require('./App');
 const PORT = 3000;
 
 // go
-const listener = app.listen(
+const listener = App.listen(
   PORT, 
   () =>{
     const pickedPort = listener.address().port;
