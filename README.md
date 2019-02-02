@@ -1,13 +1,29 @@
 # Spotify Social
 
-## Getting started
+## Environment variables
 
-Add your Spotify Client ID and Client Secret to env vars. If you're developing locally, you can use a `.env` file.
+Set up your `.env` file (or system variables).
 
-Sample `.env` file:
 ```
 SPOTIFY_CLIENT_ID=abcdefghijklmnopqrstuvwxyz123456
 SPOTIFY_CLIENT_SECRET=abcdefghijklmnopqrstuvwxyz123456
+DOMAIN=http://7ecbd8bf.ngrok.io
 ```
 
-Then, just run `yarn install` and `yarn start`
+## Starting the project
+
+### Development
+
+See section called "Environment variables".
+
+For dev, you'll want to get `ngrok` in order to get dev going.
+
+Live reload should work during development mode.
+
+`yarn install` and `yarn dev`.
+
+### Production
+
+See section called "Environment variables"
+
+`yarn install` and `yarn start`
